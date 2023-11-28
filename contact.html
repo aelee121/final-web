@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Alpine Haven Retreat</title>
+        <meta name="description" content="a website for the fictitious 'Alpine Haven Retreat'. This is their contact page">
+		<meta name="author" content="Angela Lee">
+        <!-- Styles -->
+        <link rel="stylesheet" href="https://use.typekit.net/vrx3heu.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+                
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    </head>
+    <body>
+        <header>
+            <section>
+                <h1><a href="index.html" aria-label="go to home page">Alpine Haven Retreat</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accommodations</a></li>
+                        <li><a href="#"><span>Contact</span></a></li>
+                    </ul>
+                </nav>
+            </section> 
+            <img src="images/swiss-valley.jpg" alt="a sunny valley in the swiss alps. Trees surround the base of the mountains, and a river flows in the middle. The mountain peaks are covered in snow" width="1440" height="560">
+        </header>
+        <main id="contact"> 
+            
+            <section id="side1">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+            <img src="images/swiss-peak.jpg" alt="a mountain peak covered in snow in the swiss alps. trees surround the base of the mountain and a river flows in the middle of them" width="350" height="455">
+            </section>
+            <div>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <!--Name: required -->
+                    <label for="my-name">Name*</label>
+                    <input type="text" name="my-name" id="my-name" required>
+
+                    <!--Email: required -->
+                    <label for="my-email">Email*</label>
+                    <input type="email" name="my-email" id="my-email" required>
+                    
+                    <!--Phone Number-->
+                    <label for="my-phone">Phone Number</label>
+                    <input type="tel" name="my-phone" id="my-phone">
+                    
+                    <!--Preferred Method of Contact-->
+                    <fieldset>
+                        <legend>Preferred Method of Contact</legend>
+
+                        <!--Phone-->
+                        <input type="radio" name="pref-contact" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+
+                        <!--Email-->
+                        <input type="radio" name="pref-contact" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                    
+                        
+                    </fieldset>
+                    
+                    <!--Comments-->
+                    <label for="my-comments">Comments</label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+                    
+                    <!--Submit Button-->
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                    
+                </form>
+            </div>
+            
+        </main>
+        <footer>
+            <p>
+                Copyright ©2023 - *Alpine Haven Retreat*
+            </p>
+            <small>This site is for educational purposes only</small>
+        </footer>
+    </body>
+</html>
